@@ -13,7 +13,7 @@ app.set("views", "./views")
 app.use(express.static("public"))
 
 app.get('/', (req, res) => {
-  res.render("home");
+  res.render("home11111");
 })
 
 app.get('/admin', (req, res) => {
